@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+#qrImage {
+  max-width: 250px;
+}

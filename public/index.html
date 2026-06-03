@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>QR Code Generator</h1>
+
+    <input
+      type="text"
+      id="textInput"
+      placeholder="Introdu text sau URL"
+    >
+
+    <button id="generateBtn">
+      Generează QR
+    </button>
+
+    <div class="result">
+      <img id="qrImage" alt="QR Code">
+    </div>
+
+    <a
+      id="downloadBtn"
+      download="qrcode.png"
+      style="display:none;"
+    >
+      Descarcă QR
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
