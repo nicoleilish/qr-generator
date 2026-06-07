@@ -36,7 +36,7 @@ generateBtn.addEventListener("click", async () => {
     downloadBtn.style.display = "inline-block";
 
   } catch (error) {
-    alert("And your code is...");
+    alert("successful error, the qr code being...");
   }
 generateQr();
 });
